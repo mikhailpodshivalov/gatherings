@@ -8,6 +8,7 @@ RUN apt-get update \
     && apt-get -y install git zip libonig-dev libzip-dev libxml2-dev \
     && docker-php-ext-install pdo pdo_mysql \
     && pecl install xdebug && docker-php-ext-enable xdebug \
+    && pecl install redis && docker-php-ext-enable redis \
     && chown -R www-data:www-data /var/www
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
