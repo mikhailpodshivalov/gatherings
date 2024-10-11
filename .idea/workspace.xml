@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bab7deb-8bdd-4207-8c35-d231afa9ea02" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gatherings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/nginx/config.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/php/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/php/xdebug.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap/providers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/0001_01_01_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/0001_01_01_000001_create_cache_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/0001_01_01_000002_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/app/private/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2nIVptYxiBLNjYmMPwnkM6HhYCf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23339.16" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23339.16" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bab7deb-8bdd-4207-8c35-d231afa9ea02" name="Changes" comment="" />
+      <created>1728660762482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728660762482</updated>
+      <workItem from="1728660763612" duration="2764000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
