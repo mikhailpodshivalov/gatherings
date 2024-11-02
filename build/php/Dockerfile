@@ -6,8 +6,8 @@ WORKDIR /var/www
 
 RUN apt-get update \
     && apt-get -y install git zip libonig-dev libzip-dev libxml2-dev libpq-dev
-RUN docker-php-ext-install pdo pdo_pgsql
-RUN docker-php-ext-install zip \
+RUN docker-php-ext-install pdo pdo_pgsql \
+    && docker-php-ext-install zip \
     && pecl install xdebug && docker-php-ext-enable xdebug \
     && pecl install redis && docker-php-ext-enable redis \
     && chown -R www-data:www-data /var/www
