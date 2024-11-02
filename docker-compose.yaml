@@ -11,7 +11,7 @@ services:
     volumes:
       - ./src:/var/www
     depends_on:
-      - db
+      - postgres
       - redis
 
   nginx:
@@ -26,18 +26,19 @@ services:
     depends_on:
       - gath
 
-  db:
-    image: mysql:8.0
-    volumes:
-      - ./db:/var/lib/mysql
-    restart: always
+  postgres:
+    image: "postgres:alpine"
     ports:
-      - "3308:3306"
+      - "5432:5432"
+    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: gatherings
-      MYSQL_USER: gath
-      MYSQL_PASSWORD: gath
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_HOST_AUTH_METHOD: md5
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - db_data:/var/lib/postgresql/data:rw
 
   redis:
     image: "redis:alpine"
